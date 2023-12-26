@@ -21,3 +21,22 @@ The test case4( testNextDate4) checks if the NextDate function returns the corre
 Note that the assertEquals statement checks if the expected output that the user entered is the same as the actual value that the function returns when the arguments are entered into the function.
 
 <h1> Test Outcomes </h1>
+
+![testoutcomes](https://github.com/AkshatKapo/NextDate-Test-Case-Design-/assets/94620098/78f11976-243f-4490-9813-c2200682e018)
+
+<h1> Next Date Code </h1>
+
+![nextdate1](https://github.com/AkshatKapo/NextDate-Test-Case-Design-/assets/94620098/b10a167f-dd61-44cf-81f9-68262e2c5583)
+![nextdate2](https://github.com/AkshatKapo/NextDate-Test-Case-Design-/assets/94620098/87e1d4f4-4bbe-494f-858c-d477660e0321)
+
+The above Screenshot shows the NextDate class that calculates the next day's date. It uses the LocalDate function to calculate the date of the next day, and the data is stored in the tomorrow variable, which is then converted into a string, and if the year is in the range, it prints the date of the next day. If the year entered by the user is out of range, it prints the “Invalid Input, the year you put is out of the range.”It takes three arguments (year, month, and day).In addition, it also checks if the year entered by the user is a leap year or not and if the values that the user enters (year, month, Day) are in the range.
+
+<h1> Code Output </h1>
+
+
+![codeoutput](https://github.com/AkshatKapo/NextDate-Test-Case-Design-/assets/94620098/2f706574-9580-43c4-8a7d-7d3cfc74fdfe)
+
+
+
+
+
